@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>WeeB</title>
+  </head>
+  <body class="gradient">
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!--Navbar-->
+    <section class="navbar">
+    <nav class="navbar navbar-dark bg-dark fixed-top shadow-sm">
+      <div class="container-lg">
+        <a class="navbar-brand fw-bolder" style="color: #FE5F55;" href="index.html">WB</a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title fw-bold" style="color: #FE5F55;" id="offcanvasNavbarLabel">WeeB</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" style="color: #EEF5DB;" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" style="color: #EEF5DB;" href="/index.html#blog">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" style="color: #EEF5DB;" href="/index.html#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" style="color: #EEF5DB;" href="/index.html#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    </section>
+    <div class="container py-4">
+    <!--Thumbnail-->
+    <div id="carousel" class="carousel slide carousel-dark mb-5 mt-4 shadow" style="border-radius: 5px;" data-bs-ride="carousel" id="blog">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active"> 
+            <a href="/blog1.html">
+            <img src="image/1.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="fw-bold">The Art of Sports Anime</h1>
+              <p class="text-dark">Mengupas tuntas tentang olahraga yang di adaptasi 
+                kedalam sebuah anime dari berbagai sudut pandang.</p>
+            </div>
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="/blog2.html">
+            <img src="image/2.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="fw-bold">Rising Hero Save The City</h1>
+              <p class="text-dark">Pahlawan Deku yang baru saja lulus akademi pahlawan
+                di UA berhasil menyelamatkan kota.</p>
+            </div>
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="/blog3.html">
+            <img src="image/3.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="fw-bold">Jewelry Robber Managed to Escape</h1>
+              <p class="text-dark">Kaito Kid berulah lagi kini dia mencuri perhiasan
+                dari abad pertengahan.</p>
+            </div>
+            </a>
+          </div>
+        </div>
+        <button class="carousel-control-prev btnlayer" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next btnlayer2" type="button" data-bs-target="#carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--Blog menu-->
+    <section class="blog">
+    <a name="blog"></a>
+    <div class="container-lg">
+      <div class="row align-items-center align-content-center">
+          <h2 class="fs-4 neonText">Most Recent</h2>
+          <span class="border-bottom"></span>
+            
+            <!--item blog-->
+            <div class="row row-cols-1 row-cols-md-3 g-3">
+              <div class="col">
+                <a href="/blog1.html" class="text-decoration-none">
+                  <div class="card layer bg-gd border-0">
+                    <img src="image/1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-text fw-bolder">The Art of Sports Anime</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col">
+                <a href="/blog2.html" class="text-decoration-none">
+                  <div class="card layer bg-gd border-0">
+                    <img src="image/2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-text fw-bolder">Rising Hero Save The City</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col">
+                <a href="/blog3.html" class="text-decoration-none">
+                  <div class="card layer bg-gd border-0">
+                    <img src="image/3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-text fw-bolder">Kaito Kid Managed to Escape</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col">
+                <a href="/blog4.html" class="text-decoration-none">
+                  <div class="card layer bg-gd border-0">
+                    <img src="image/4.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-text fw-bolder">Straw Hat Kru Went To Wano</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col">
+                <a href="/blog5.html" class="text-decoration-none">
+                  <div class="card layer bg-gd border-0">
+                    <img src="image/5.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-text fw-bolder">The New Ten Elite Council</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col">
+                <a href="/blog6.html" class="text-decoration-none">
+                  <div class="card layer bg-gd border-0">
+                    <img src="image/6.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-text fw-bolder">A Genius Highschool Detective</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+      </div>
+    </div>
+    </section>
+    <!--End Sec-->
+    <section class="footer">
+    <footer class="footer mt-5">
+        <div class="container-lg py-4">
+            <!--About-->
+            <div class="row" id="about">
+                <div class="col-md-5">
+                    <div class="contact-item d-flex mb-3">
+                        <div class="text ms-3">
+                            <h3 class="fs-5 neonText">About Me</h3>
+                            <p class="text-white">Nama Saya Ganes Wisnu seorang penikmat anime
+                              semua genre anime saya suka, teman-teman saya bilang saya wibu
+                              tapi setidaknya saya tidak nolep.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contact-item d-flex mb-3">
+                        <div class="text ms-3">
+                            <h3 class="fs-5 neonText">Follow Me</h3>
+                            <div class="social-links">
+                                <a href="https://www.facebook.com/profile.php?id=100007073415232" class="me-2 textani"><i class="bi bi-facebook"></i></a>
+                                <a href="https://twitter.com/Bantubeless_9" class="me-2 textani"><i class="bi bi-twitter"></i></a>
+                                <a href="https://www.instagram.com/g__wisnu/" class="me-2 textani"><i class="bi bi-instagram"></i></a>
+                                <a href="https://www.linkedin.com/in/ganes-wisnu-aa681a229/" class="me-2 textani"><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Contact-->
+                <div class="col-md-7" id="contact">
+                    <div class="contact-form">
+                        <h3 class="fs-5 neonText">Contact Me</h3>
+                        <form>
+                            <div class="row">
+                                <div class="col-lg-5 mb-2">
+                                    <input type="text" placeholder="Your Name" class="form-control f
+                                    orm-control-lg fs-6 border-1">
+                                </div>
+                                <div class="col-lg-6 mb-2">
+                                    <input type="text" placeholder="Your Email" class="form-control f
+                                    orm-control-lg fs-6 border-1">
+                                </div>
+                                <div class="col-lg-11 mb-2">
+                                    <input type="text" placeholder="Subject" class="form-control f
+                                    orm-control-lg fs-6 border-1">
+                                </div>
+                                <div class="col-lg-11 mb-2">
+                                    <textarea rows="5" placeholder="Your Message" class="form-control f
+                                    orm-control-lg fs-6 border-1"></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <button type="submit" class="btn btn-dark border-0 px-3" style="background-color: #FE5F55;">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+  </div>
+  </section>
+<!--Footer-->
+<footer class="footer border-top py-3 px-1">
+  <div class="container-lg">
+    <div class="row">
+      <div class="col-lg-12">
+        <p class="m-0 text-center text-white">&copy; 2022 Ganes Wisnu Cahya Bagaskara</p>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
